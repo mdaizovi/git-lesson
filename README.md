@@ -11,14 +11,15 @@ NOTE: anything in <> is a placeholder. for example
  
    - Make basic commands in the terminal (`ls`, `cd <directory>`, `cd..`, `mkdir <directory>`)
    
-   - Check if gt is already installed on your sytem
+   - Check if git is already installed on your sytem
     `git --version`
     
      - [install if necessary](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
    
    - Clone a repo
     `git clone <repo url>`
-   
+        - [Caching your GitHub credentials in Git if necessary](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)
+        - [Creating a personal access token if necessary](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
         - [Generate SSH key if necessary](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
    
    
