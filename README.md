@@ -11,8 +11,16 @@ NOTE: anything in <> is a placeholder. for example
  
    - Make basic commands in the terminal (`ls`, `cd <directory>`, `cd..`, `mkdir <directory>`)
    
+   - Check if gt is already installed on your sytem
+    `git --version`
+    
+   - If not, [install it](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+   
    - Clone a repo
     `git clone <repo url>`
+   
+      - *Maybe unnecessary* [Generate SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+   
    
    - Pull from a repo
     `git pull`
