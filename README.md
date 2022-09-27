@@ -3,6 +3,13 @@ Simple repo for teaching git basics
 NOTE: anything in <> is a placeholder. for example 
 `<directory>` means there will be the name or a directory (or folder) there but I don't know which one.
 
+ <p align="center">
+  <img src="img/memorize.jpg"
+     alt="When all else fails.."
+     style="width: 33%;" />
+ </p>
+
+
 ## Topics
 
  - What is git? Why use it?
