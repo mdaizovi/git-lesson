@@ -25,7 +25,10 @@ NOTE: anything in <> is a placeholder. for example
    
    - Change branches
      `git checkout <branch name>`
-   
+
+   - Add a file to staging area
+     `git add <filename>`
+     
    - Commit your changes on your branch
      `git commit -am<commit message>`
    
@@ -33,3 +36,4 @@ NOTE: anything in <> is a placeholder. for example
         `git push origin`
         
    - Make a merge request
+      (We will do this online at github.com)
