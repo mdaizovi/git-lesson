@@ -23,12 +23,10 @@ NOTE: anything in <> is a placeholder. for example
     
      - [install if necessary](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
    
+   - Pause to make an account on github.com, and tell me so I can invite you as a collaborator to this repo. Accept my invitation.
+   
    - Clone a repo
     `git clone <repo url>`
-        - [Caching your GitHub credentials in Git if necessary](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)
-        - [Creating a personal access token if necessary](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-        - [Generate SSH key if necessary](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-   
    
    - Pull from a repo
     `git pull`
@@ -42,14 +40,23 @@ NOTE: anything in <> is a placeholder. for example
    - Change branches
      `git checkout <branch name>`
 
+   - Change comething. See the files you've changed:
+     `git status`
+     
    - Add a file to staging area
      `git add <filename>`
      
    - Commit your changes on your branch
-     `git commit -am<commit message>`
+     `git commit -am"<commit message>"`
    
-   - Push to the repo
+   - Push to the repo *(it will probably fail, you will need to set up your authentication in one of these 3 ways)*
         `git push origin`
+        
+     - [Creating a personal access token if necessary](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+          - to save token, after logging in wither username and token, do: `git config --global credential.helper store`
+     - [Generate SSH key if necessary](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+     - [Caching your GitHub credentials in Git if necessary](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)
+        
         
    - Make a merge request
       (We will do this online at github.com)
